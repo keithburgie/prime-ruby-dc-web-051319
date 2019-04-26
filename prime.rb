@@ -13,7 +13,7 @@ def prime?(input)
 
     range.each do |i|
       if input % i != 0
-        #do nothing
+      # do nothing
       else
         return false
       end
