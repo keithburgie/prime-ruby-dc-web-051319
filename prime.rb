@@ -1,7 +1,5 @@
 def prime?(input)
   
-  input < 0 ? return false : true
-  
   range = (2..input).to_a
   range.pop
 
