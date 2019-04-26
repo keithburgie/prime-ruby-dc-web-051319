@@ -1,6 +1,6 @@
 def prime?(input)
   
-  if input <= 0
+  if input <= 1
     return false
     
   else
