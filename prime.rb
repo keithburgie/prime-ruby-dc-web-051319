@@ -1,19 +1,21 @@
 def prime?(input)
   
-  if input < 0 = return false
-    else
-      range = (2..input).to_a
-      range.pop
+  if input < 0
+    return false
+    
+  else
+    range = (2..input).to_a
+    range.pop
 
-      range.each do |i|
-        if input % i != 0
-          #do nothing
-        else
-          return false
-        end
+    range.each do |i|
+      if input % i != 0
+        #do nothing
+      else
+        return false
       end
-      return true
-  
+    end
+    return true
+      
   end
     
 end
